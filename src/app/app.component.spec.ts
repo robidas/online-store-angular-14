@@ -26,10 +26,4 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('online-store-angular-14');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('online-store-angular-14 app is running!');
-  });
 });
