@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { FooterComponent } from './footer/footer.component';
+import { StartPageComponent } from './start-page/start-page.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MainLayoutComponent,
-    FooterComponent
+    FooterComponent,
+    StartPageComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
