@@ -1,0 +1,35 @@
+- Generating browser application bundles (phase: setup)...
+ΓêÜ Browser application bundle generation complete.
+17 06 2024 17:16:33.608:WARN [karma]: No captured browser, open http://localhost:9876/
+17 06 2024 17:16:33.623:INFO [karma-server]: Karma v6.4.3 server started at http://localhost:9876/
+17 06 2024 17:16:33.623:INFO [launcher]: Launching browsers Chrome with concurrency unlimited
+17 06 2024 17:16:33.639:INFO [launcher]: Starting browser Chrome
+17 06 2024 17:16:39.610:INFO [Chrome 125.0.0.0 (Windows 10)]: Connected on socket UsYS-fTjQKyoH05OAAAB with id 50470445
+Chrome 125.0.0.0 (Windows 10): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KChrome 125.0.0.0 (Windows 10): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.1 secs)
+[1A[2KERROR: [36m'NG0304: 'app-header' is not a known element (used in the 'AppComponent' component template):
+1. If 'app-header' is an Angular component, then verify that it is a part of an @NgModule where this component is declared.
+2. If 'app-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'[39m
+Chrome 125.0.0.0 (Windows 10): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.1 secs)
+ERROR: 'NG0304: 'app-header' is not a known element (used in the 'AppComponent' component template):
+1. If 'app-header' is an Angular component, then verify that it is a part of an @NgModule where this component is declared.
+2. If 'app-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KChrome 125.0.0.0 (Windows 10): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.109 secs)
+[1A[2KERROR: [36m'NG0304: 'app-header' is not a known element (used in the 'AppComponent' component template):
+1. If 'app-header' is an Angular component, then verify that it is a part of an @NgModule where this component is declared.
+2. If 'app-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'[39m
+Chrome 125.0.0.0 (Windows 10): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.109 secs)
+ERROR: 'NG0304: 'app-header' is not a known element (used in the 'AppComponent' component template):
+1. If 'app-header' is an Angular component, then verify that it is a part of an @NgModule where this component is declared.
+2. If 'app-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KChrome 125.0.0.0 (Windows 10): Executed 3 of 3[32m SUCCESS[39m (0 secs / 0.112 secs)
+[1A[2KChrome 125.0.0.0 (Windows 10): Executed 3 of 3[32m SUCCESS[39m (0.129 secs / 0.112 secs)
+[32mTOTAL: 3 SUCCESS[39m
+
+=============================== Coverage summary ===============================
+Statements   : 100% ( 3/3 )
+Branches     : 100% ( 0/0 )
+Functions    : 100% ( 2/2 )
+Lines        : 100% ( 3/3 )
+================================================================================
+ΓêÜ Browser application bundle generation complete.
