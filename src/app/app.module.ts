@@ -8,6 +8,8 @@ import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { FooterComponent } from './footer/footer.component';
 import { StartPageComponent } from './start-page/start-page.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { CartComponent } from './cart/cart.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ProductListComponent } from './product-list/product-list.component';
     MainLayoutComponent,
     FooterComponent,
     StartPageComponent,
-    ProductListComponent
+    ProductListComponent,
+    CartComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
