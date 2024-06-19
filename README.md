@@ -77,7 +77,7 @@ beforeEach(async () => {
 By importing AppModule, we ensure that all dependencies of AppComponent, including the app-header component, are correctly recognized and instantiated during testing, thereby resolving the NG0304 error.
 
 Conclusion
-This testing strategy not only resolves the immediate issue of unrecognized elements in component templates but also sets a foundation for a more integrated and realistic testing environment. It aligns with our commitment to building a robust, maintainable, and scalable online-store-angular-14 project. ```
+This testing strategy not only resolves the immediate issue of unrecognized elements in component templates but also sets a foundation for a more integrated and realistic testing environment. It aligns with our commitment to building a robust, maintainable, and scalable online-store-angular-14 project.
 
 
 
